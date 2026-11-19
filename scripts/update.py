@@ -35,12 +35,8 @@ banner = Path(__file__).with_name('masthead.svg.in').read_text()
     .replace('@ACCENT@', feature.accent))
 svg, summary = render(repos, today)
 (path.parent / 'assets/pulse.svg').write_text(svg)
-stars = sum(r['stargazers_count'] for r in repos)
-forks = sum(r['forks_count'] for r in repos)
 rows = [f'> **Field notes · {issue}** — [{feature.project}]({url}) · {feature.copy}', '',
         f'![{summary}; project language counts](assets/pulse.svg)', '',
         f'**{summary}.** Each repository counts once. We use GitHub’s primary language except for ZMRIG, classified by its Zig miner core.', '',
-        '| Tracked projects | Stars received | Forks received |',
-        '| :--- | :--- | :--- |', f'| {len(repos)} | {stars} | {forks} |', '',
         '### Recently updated', '', 'Latest five by push date (UTC).', '', *rows]
 path.write_text(old.split(start)[0] + '\n'.join([start, *rows, end]) + old.split(end)[1])

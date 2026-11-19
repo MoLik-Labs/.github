@@ -2,14 +2,14 @@
 
 # MoLik Labs
 
-MoLik Labs is a non-commercial software lab led by [NggKhaiz - Raven](https://github.com/NggKhaiz). We build and experiment together, from Windows tooling to small web apps. Our projects include a way to build a leaner Windows image, a method for solving a 3×3 cube, and a study app small enough to live in one HTML file.
+MoLik Labs is a non-commercial software lab led by [NggKhaiz - Raven](https://github.com/NggKhaiz). We build and experiment together, from Windows tooling to small web apps. Pick a project below, or use the field manual to check compatibility, verify a download or find a test suite.
 
-[Project atlas](#project-atlas) · [Lab pulse](#lab-pulse) · [People](#people--workbench) · [Visit the lab](https://nggkhaiz.js.org/labs/) · [Browse all repositories](https://github.com/orgs/MoLik-Labs/repositories)
+[Projects](#project-atlas) · [Field manual](#field-manual) · [Lab pulse](#lab-pulse) · [People](#people--workbench) · [Visit the lab](https://nggkhaiz.js.org/labs/) · [Browse all repositories](https://github.com/orgs/MoLik-Labs/repositories)
 
 <details>
 <summary>Giới thiệu bằng tiếng Việt</summary>
 
-MoLik Labs là nơi **NggKhaiz - Raven** và anh em trong lab cùng làm phần mềm phi thương mại. Tụi mình xây công cụ cho Windows, thử nghiệm phương pháp giải Rubik 3×3 và viết cả ứng dụng học tập trong một tệp HTML. Mỗi dự án có kho mã riêng; bạn có thể bắt đầu từ bảng bên dưới hoặc ghé [trang của lab](https://nggkhaiz.js.org/labs/).
+MoLik Labs là nơi **NggKhaiz - Raven** và anh em trong lab cùng làm phần mềm phi thương mại. Tụi mình xây công cụ cho Windows, thử nghiệm phương pháp giải Rubik 3×3 và viết ứng dụng lên lịch học theo tuần. Mỗi dự án có kho mã riêng; bạn có thể bắt đầu từ bảng bên dưới hoặc ghé [trang của lab](https://nggkhaiz.js.org/labs/).
 
 </details>
 
@@ -20,7 +20,38 @@ MoLik Labs là nơi **NggKhaiz - Raven** và anh em trong lab cùng làm phần 
 | **Systems** | [ZMRIG](https://github.com/MoLik-Labs/ZMRIG) | RandomX miner written in **Zig**, alongside pool and proxy components. Read the miner from [`main.zig`](https://github.com/MoLik-Labs/ZMRIG/blob/BETA/zmrig/src/main.zig). |
 | **Windows** | [TINY11-AUTOMATION](https://github.com/MoLik-Labs/TINY11-AUTOMATION) · [MOLIK_WINLIK](https://github.com/MoLik-Labs/MOLIK_WINLIK) | Two entry points: build a streamlined Windows image with Actions, or tune an existing installation with PowerShell. WINLIK builds on [Sophia Script](https://github.com/farag2/Sophia-Script-for-Windows). |
 | **Algorithms** | [Q-FOX](https://github.com/MoLik-Labs/Q-FOX-Algorithm) | Follow a 3×3 cube method from the [engine](https://github.com/MoLik-Labs/Q-FOX-Algorithm/tree/main/engine) to the [results](https://github.com/MoLik-Labs/Q-FOX-Algorithm/tree/main/results). |
-| **Web tools** | [Study Focus Fox](https://github.com/MoLik-Labs/STUDY-SITE) | A study app in a single HTML file. The interface and the logic can be read together without navigating a framework. |
+| **Web tools** | [Study Focus Fox](https://github.com/MoLik-Labs/STUDY-SITE) | A weekly planner with course notes and progress tracking. Guest mode keeps study data on the device; an account enables sync. |
+
+## Field manual
+
+**Before you install** · Windows tooling
+
+| Question | Go directly to |
+| :--- | :--- |
+| Does WINLIK cover my Windows build? | [Supported Windows builds](https://github.com/MoLik-Labs/MOLIK_WINLIK/blob/main/supported_windows_builds.json) — compare your build number before choosing a script. |
+| Did the portable file arrive intact? | [Published SHA-256](https://github.com/MoLik-Labs/MOLIK_WINLIK/blob/main/MolikWinlik-Portable.ps1.sha256) — compare it with the digest of the matching `.ps1` revision. |
+| Should I expect a signed script? | [Code-signing policy](https://github.com/MoLik-Labs/MOLIK_WINLIK/blob/main/CODE_SIGNING_POLICY.md) — separate publisher verification from a checksum match. |
+| Where are the Vietnamese instructions? | [Hướng dẫn chạy WINLIK](https://github.com/MoLik-Labs/MOLIK_WINLIK/blob/main/HUONG-DAN-CHAY.txt) — start here rather than guessing which launcher to use. |
+
+<details>
+<summary><strong>At the workbench</strong> · four routes into the code</summary>
+
+- **Trace a Windows build.** Tiny11’s [version matrix](https://github.com/MoLik-Labs/TINY11-AUTOMATION/blob/main/VERSION_MATRIX_README.md) explains how release detection feeds the build workflow.
+- **Find a regression test.** Start in the [Zig miner tests](https://github.com/MoLik-Labs/ZMRIG/tree/BETA/zmrig/tests), rather than the repository-wide test directory.
+- **Inspect a cube experiment.** Read the [Q-FOX datasets](https://github.com/MoLik-Labs/Q-FOX-Algorithm/tree/main/data) beside the [recorded results](https://github.com/MoLik-Labs/Q-FOX-Algorithm/tree/main/results).
+- **Preview a web change.** The [Study Focus Fox development guide](https://github.com/MoLik-Labs/STUDY-SITE#lệnh) covers local serving, the build and browser checks.
+
+</details>
+
+<details>
+<summary><strong>Before you ship</strong> · releases, reuse and reporting</summary>
+
+- **Review an upgrade.** Compare [WINLIK-specific changes](https://github.com/MoLik-Labs/MOLIK_WINLIK/blob/main/CHANGELOG-MOLIK.md) or read the [ZMRIG changelog](https://github.com/MoLik-Labs/ZMRIG/blob/BETA/CHANGELOG.md) before moving versions.
+- **Check reuse terms.** Licenses are per project: [ZMRIG license](https://github.com/MoLik-Labs/ZMRIG/blob/BETA/LICENSE) and [notices](https://github.com/MoLik-Labs/ZMRIG/blob/BETA/NOTICE), [WINLIK license](https://github.com/MoLik-Labs/MOLIK_WINLIK/blob/main/LICENSE), [Study Focus Fox license](https://github.com/MoLik-Labs/STUDY-SITE/blob/main/LICENSE).
+- **Propose a Tiny11 change.** Follow its [contribution guide](https://github.com/MoLik-Labs/TINY11-AUTOMATION/blob/main/CONTRIBUTING.md) for project-specific expectations.
+- **Report a Tiny11 security concern.** Consult its [security policy](https://github.com/MoLik-Labs/TINY11-AUTOMATION/blob/main/SECURITY.md) before posting details publicly.
+
+</details>
 
 ## Lab pulse
 
@@ -32,10 +63,6 @@ A daily snapshot of public projects, excluding forks, archives and this profile.
 ![5 of 5 repositories pushed in the last 30 UTC days; project language counts](assets/pulse.svg)
 
 **5 of 5 repositories pushed in the last 30 UTC days.** Each repository counts once. We use GitHub’s primary language except for ZMRIG, classified by its Zig miner core.
-
-| Tracked projects | Stars received | Forks received |
-| :--- | :--- | :--- |
-| 5 | 15 | 1 |
 
 ### Recently updated
 
@@ -59,14 +86,6 @@ Latest five by push date (UTC).
   <img width="100%" alt="Highlights from Raven’s GitHub profile; these use the personal profile’s reporting scope, not the lab activity window above." src="https://raw.githubusercontent.com/NggKhaiz/NggKhaiz/main/assets/highlights-dark.svg">
 </picture>
 
-<details>
-<summary>Under the hood · how the two profiles are built</summary>
-
-| | Data | Presentation |
-| :--- | :--- | :--- |
-| **MoLik Labs** | The [daily workflow](https://github.com/MoLik-Labs/.github/actions/workflows/profile.yml) reads the organization’s public repository metadata. | [Python scripts](https://github.com/MoLik-Labs/.github/tree/main/scripts) draw the activity ring and language bars as SVG, then refresh only the marked section of this page. |
-| **NggKhaiz** | [`fetch_stats.py`](https://github.com/NggKhaiz/NggKhaiz/blob/main/tools/fetch_stats.py) collects the [profile snapshot](https://github.com/NggKhaiz/NggKhaiz/blob/main/data/profile.json). | The [build tools](https://github.com/NggKhaiz/NggKhaiz/tree/main/tools) turn that snapshot into profile artwork, a README and web pages. The highlights above are served directly from that project. |
-
-</details>
+<sub>Sources: [organization refresh runs](https://github.com/MoLik-Labs/.github/actions/workflows/profile.yml) · [Raven’s profile snapshot](https://github.com/NggKhaiz/NggKhaiz/blob/main/data/profile.json). Personal highlights are not team totals.</sub>
 
 **Find the right person.** For a project question, start in that repository so the people working on it have the context. For a direct note to Raven: [email](mailto:nggkhaiz@proton.me) · [personal site](https://nggkhaiz.js.org). Explore the lab’s [public people directory](https://github.com/orgs/MoLik-Labs/people); it only lists members who choose public visibility.

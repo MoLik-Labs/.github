@@ -14,11 +14,11 @@
 | 08 | Dự án tiêu điểm | Lab Pulse · luân phiên theo tháng, không phải xếp hạng |
 | 09 | Vòng hoạt động 30 ngày | Lab Pulse · hằng ngày |
 | 10 | Phân bố ngôn ngữ dự án | Lab Pulse · hằng ngày, có chú thích ngoại lệ Zig |
-| 11 | Tổng repo, sao và fork | Lab Pulse · cùng phạm vi với biểu đồ |
+| 11 | Field manual: 12 tác vụ cụ thể | Kiểm tra tương thích, phát triển, phát hành; ưu tiên thay cho bảng sao/fork |
 | 12 | Năm repo cập nhật gần nhất | Lab Pulse · hằng ngày |
 | 13 | Workbench của Raven | People · biên tập từ profile công khai |
 | 14 | Thẻ cá nhân sáng/tối | People · theo asset gốc của NggKhaiz |
-| 15 | Nguồn và pipeline | Under the hood · thu gọn |
+| 15 | Nguồn và pipeline | Dòng nguồn ngắn dưới thẻ cá nhân |
 | 16 | Đường liên hệ và danh bạ công khai | Cuối trang · không suy đoán thành viên |
 
 **Quy trình:** (1) đối chiếu README và đường dẫn mã nguồn; (2) chọn dự án trong `scripts/edition.py`; (3) render bìa, biểu đồ và Markdown cùng ngày UTC; (4) kiểm tra liên kết, tháng kế tiếp và khả năng chạy lặp; (5) review bằng PR trước khi xuất bản. Không đổi màu mỗi lần tải, không dùng số đóng góp cá nhân để chấm điểm nhóm.
