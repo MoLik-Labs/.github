@@ -4,7 +4,7 @@
 
 MoLik Labs is a non-commercial software lab led by [NggKhaiz - Raven](https://github.com/NggKhaiz). We build and experiment together, from Windows tooling to small web apps. Our projects include a way to build a leaner Windows image, a method for solving a 3×3 cube, and a study app small enough to live in one HTML file.
 
-[Visit the lab](https://nggkhaiz.js.org/labs/) · [Browse all repositories](https://github.com/orgs/MoLik-Labs/repositories)
+[Project atlas](#project-atlas) · [Lab pulse](#lab-pulse) · [People](#people--workbench) · [Visit the lab](https://nggkhaiz.js.org/labs/) · [Browse all repositories](https://github.com/orgs/MoLik-Labs/repositories)
 
 <details>
 <summary>Giới thiệu bằng tiếng Việt</summary>
@@ -17,7 +17,7 @@ MoLik Labs là nơi **NggKhaiz - Raven** và anh em trong lab cùng làm phần 
 
 | Track | Where to start | What to look for |
 | :--- | :--- | :--- |
-| **Systems** | [ZMRIG](https://github.com/MoLik-Labs/ZMRIG) | RandomX miner, pool and proxy. Start with its README to distinguish the three components. |
+| **Systems** | [ZMRIG](https://github.com/MoLik-Labs/ZMRIG) | RandomX miner written in **Zig**, alongside pool and proxy components. Read the miner from [`main.zig`](https://github.com/MoLik-Labs/ZMRIG/blob/BETA/zmrig/src/main.zig). |
 | **Windows** | [TINY11-AUTOMATION](https://github.com/MoLik-Labs/TINY11-AUTOMATION) · [MOLIK_WINLIK](https://github.com/MoLik-Labs/MOLIK_WINLIK) | Two entry points: build a streamlined Windows image with Actions, or tune an existing installation with PowerShell. WINLIK builds on [Sophia Script](https://github.com/farag2/Sophia-Script-for-Windows). |
 | **Algorithms** | [Q-FOX](https://github.com/MoLik-Labs/Q-FOX-Algorithm) | Follow a 3×3 cube method from the [engine](https://github.com/MoLik-Labs/Q-FOX-Algorithm/tree/main/engine) to the [results](https://github.com/MoLik-Labs/Q-FOX-Algorithm/tree/main/results). |
 | **Web tools** | [Study Focus Fox](https://github.com/MoLik-Labs/STUDY-SITE) | A study app in a single HTML file. The interface and the logic can be read together without navigating a framework. |
@@ -27,9 +27,11 @@ MoLik Labs là nơi **NggKhaiz - Raven** và anh em trong lab cùng làm phần 
 A daily snapshot of public projects, excluding forks, archives and this profile. The ring measures repository activity, not individual productivity.
 
 <!-- index:start -->
-![5 of 5 repositories pushed in the last 30 UTC days; primary language counts](assets/pulse.svg)
+> **Field notes · 2026.11** — [ZMRIG](https://github.com/MoLik-Labs/ZMRIG/blob/BETA/zmrig/src/main.zig) · Start at the Zig entry point for the RandomX miner.
 
-**5 of 5 repositories pushed in the last 30 UTC days.** Each repository counts once, by its primary language.
+![5 of 5 repositories pushed in the last 30 UTC days; project language counts](assets/pulse.svg)
+
+**5 of 5 repositories pushed in the last 30 UTC days.** Each repository counts once. We use GitHub’s primary language except for ZMRIG, classified by its Zig miner core.
 
 | Tracked projects | Stars received | Forks received |
 | :--- | :--- | :--- |
@@ -39,13 +41,13 @@ A daily snapshot of public projects, excluding forks, archives and this profile.
 
 Latest five by push date (UTC).
 
-| Repository | Language | Last push |
+| Repository | Project language | Last push |
 | :--- | :--- | :--- |
 | [STUDY-SITE](https://github.com/MoLik-Labs/STUDY-SITE) | JavaScript | 2026-11-19 |
 | [Q-FOX-Algorithm](https://github.com/MoLik-Labs/Q-FOX-Algorithm) | JavaScript | 2026-11-19 |
 | [MOLIK_WINLIK](https://github.com/MoLik-Labs/MOLIK_WINLIK) | PowerShell | 2026-11-19 |
 | [AAOBF](https://github.com/MoLik-Labs/AAOBF) | Lua | 2026-11-18 |
-| [ZMRIG](https://github.com/MoLik-Labs/ZMRIG) | C | 2026-11-15 |
+| [ZMRIG](https://github.com/MoLik-Labs/ZMRIG) | Zig | 2026-11-15 |
 <!-- index:end -->
 
 ## People & workbench

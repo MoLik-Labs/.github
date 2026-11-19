@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 240" role="img" aria-labelledby="title"><title id="title">MoLik Labs — Engineering notebook</title>
 <defs><pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#45475a"/></pattern></defs>
 <rect width="960" height="240" rx="18" fill="#1e1e2e"/><rect x="600" width="342" height="240" fill="url(#grid)"/>
-<g font-family="monospace" font-size="15" letter-spacing="2"><text x="42" y="53" fill="#a6e3a1">ML / ENGINEERING NOTEBOOK</text><text x="44" y="194" fill="#bac2de">TOOLS  /  SYSTEMS  /  EXPERIMENTS</text></g>
+<g font-family="monospace" font-size="15" letter-spacing="2"><text x="42" y="53" fill="#a6e3a1">ML / FIELD NOTES     ·     2026.11</text><text x="44" y="194" fill="#bac2de">SYSTEMS NOTEBOOK   /   ZMRIG</text></g>
 <text x="38" y="147" fill="#cdd6f4" font-family="system-ui,sans-serif" font-weight="700" font-size="82">MoLik Labs</text>
-<g fill="none" stroke-width="3" stroke-linejoin="round"><path d="m650 148 104 -53 104 53 -104 53z" stroke="#89b4fa"/><path d="m650 119 104 -53 104 53 -104 53z" fill="#1e1e2e" stroke="#b4befe"/><path d="m650 90 104 -53 104 53 -104 53z" fill="#313244" stroke="#cba6f7"/></g><circle cx="754" cy="90" r="6" fill="#f5c2e7"/></svg>
+<g fill="none" stroke-width="3" stroke-linejoin="round"><path d="m650 148 104 -53 104 53 -104 53z" stroke="#89b4fa"/><path d="m650 119 104 -53 104 53 -104 53z" fill="#1e1e2e" stroke="#b4befe"/><path d="m650 90 104 -53 104 53 -104 53z" fill="#313244" stroke="#fab387"/></g><circle cx="754" cy="90" r="6" fill="#f5c2e7"/></svg>

@@ -7,3 +7,5 @@ Edit the introduction and field guide in `profile/README.md`. The Catppuccin Moc
 The **Refresh organization profile** workflow runs daily at 03:37 UTC or manually from Actions on the default branch. It regenerates `profile/assets/pulse.svg` and replaces the activity report and repository index between the HTML markers and only commits changed output. Enable Actions and allow the workflow token to push to the default branch; no personal access token is needed.
 
 To preview locally, run `python3 scripts/update.py` with an authenticated GitHub CLI, then inspect `git diff -- profile`.
+
+See the [16-part editorial and design plan](PROFILE-PLAN.md). Edit the cover template in `scripts/masthead.svg.in` and the monthly rotation in `scripts/edition.py`; the daily update renders the cover alongside the pulse.
