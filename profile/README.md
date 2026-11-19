@@ -22,6 +22,43 @@ MoLik Labs là nơi **NggKhaiz - Raven** và anh em trong lab cùng làm phần 
 | **Algorithms** | [Q-FOX](https://github.com/MoLik-Labs/Q-FOX-Algorithm) | Follow a 3×3 cube method from the [engine](https://github.com/MoLik-Labs/Q-FOX-Algorithm/tree/main/engine) to the [results](https://github.com/MoLik-Labs/Q-FOX-Algorithm/tree/main/results). |
 | **Web tools** | [Study Focus Fox](https://github.com/MoLik-Labs/STUDY-SITE) | A weekly planner with course notes and progress tracking. Guest mode keeps study data on the device; an account enables sync. |
 
+## Lab pulse
+
+A daily snapshot of public projects, excluding forks, archives and this profile. The ring measures repository activity, not individual productivity.
+
+<!-- index:start -->
+> **Field notes · 2026.11** — [ZMRIG](https://github.com/MoLik-Labs/ZMRIG/blob/BETA/zmrig/src/main.zig) · Start at the Zig entry point for the RandomX miner.
+
+![5 of 5 repositories pushed in the last 30 UTC days; project language counts](assets/pulse.svg)
+
+**5 of 5 repositories pushed in the last 30 UTC days.** Each repository counts once. We use GitHub’s primary language except for ZMRIG, classified by its Zig miner core.
+
+![Release cadence, release archive, detected licenses and repository creation years](assets/observatory.svg)
+
+<details><summary>Chart data &amp; reading notes</summary>
+
+- **Release cadence**, oldest week first: 0 · 0 · 0 · 0 · 0 · 1 · 0 · 0
+- **Release archive:** ZMRIG: 1, AAOBF: 0, MOLIK_WINLIK: 0, Q-FOX-Algorithm: 0, STUDY-SITE: 0
+- **License signals:** MIT: 2, Not detected: 2, GPL-3.0: 1
+- **Project origins:** 2026: 5
+
+Release charts include published prereleases, not draft releases or bare tags. Creation year is the repository date, not the first upstream commit.
+
+</details>
+
+### Recently updated
+
+Latest five by push date (UTC).
+
+| Repository | Project language | Last push |
+| :--- | :--- | :--- |
+| [STUDY-SITE](https://github.com/MoLik-Labs/STUDY-SITE) | JavaScript | 2026-11-19 |
+| [Q-FOX-Algorithm](https://github.com/MoLik-Labs/Q-FOX-Algorithm) | JavaScript | 2026-11-19 |
+| [MOLIK_WINLIK](https://github.com/MoLik-Labs/MOLIK_WINLIK) | PowerShell | 2026-11-19 |
+| [AAOBF](https://github.com/MoLik-Labs/AAOBF) | Lua | 2026-11-18 |
+| [ZMRIG](https://github.com/MoLik-Labs/ZMRIG) | Zig | 2026-11-15 |
+<!-- index:end -->
+
 ## Field manual
 
 **Before you install** · Windows tooling
@@ -52,30 +89,6 @@ MoLik Labs là nơi **NggKhaiz - Raven** và anh em trong lab cùng làm phần 
 - **Report a Tiny11 security concern.** Consult its [security policy](https://github.com/MoLik-Labs/TINY11-AUTOMATION/blob/main/SECURITY.md) before posting details publicly.
 
 </details>
-
-## Lab pulse
-
-A daily snapshot of public projects, excluding forks, archives and this profile. The ring measures repository activity, not individual productivity.
-
-<!-- index:start -->
-> **Field notes · 2026.11** — [ZMRIG](https://github.com/MoLik-Labs/ZMRIG/blob/BETA/zmrig/src/main.zig) · Start at the Zig entry point for the RandomX miner.
-
-![5 of 5 repositories pushed in the last 30 UTC days; project language counts](assets/pulse.svg)
-
-**5 of 5 repositories pushed in the last 30 UTC days.** Each repository counts once. We use GitHub’s primary language except for ZMRIG, classified by its Zig miner core.
-
-### Recently updated
-
-Latest five by push date (UTC).
-
-| Repository | Project language | Last push |
-| :--- | :--- | :--- |
-| [STUDY-SITE](https://github.com/MoLik-Labs/STUDY-SITE) | JavaScript | 2026-11-19 |
-| [Q-FOX-Algorithm](https://github.com/MoLik-Labs/Q-FOX-Algorithm) | JavaScript | 2026-11-19 |
-| [MOLIK_WINLIK](https://github.com/MoLik-Labs/MOLIK_WINLIK) | PowerShell | 2026-11-19 |
-| [AAOBF](https://github.com/MoLik-Labs/AAOBF) | Lua | 2026-11-18 |
-| [ZMRIG](https://github.com/MoLik-Labs/ZMRIG) | Zig | 2026-11-15 |
-<!-- index:end -->
 
 ## People & workbench
 
