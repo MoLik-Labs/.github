@@ -1,4 +1,6 @@
 """Refresh only the generated part of the organization profile."""
+from datetime import datetime, timezone
+from pulse import render
 import json
 from pathlib import Path
 import subprocess
@@ -18,4 +20,9 @@ old = path.read_text()
 start, end = '<!-- index:start -->', '<!-- index:end -->'
 if old.count(start) != 1 or old.count(end) != 1 or old.index(start) >= old.index(end):
     raise ValueError('Invalid repository index markers')
+svg, summary = render(repos, datetime.now(timezone.utc).date())
+(path.parent / 'assets/pulse.svg').write_text(svg)
+rows = [f'![{summary}; primary language counts](assets/pulse.svg)', '',
+        f'**{summary}.** Each repository counts once, by its primary language.', '',
+        '### Recently updated', '', 'Latest five by push date (UTC).', '', *rows]
 path.write_text(old.split(start)[0] + '\n'.join([start, *rows, end]) + old.split(end)[1])

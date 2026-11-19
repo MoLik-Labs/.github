@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 226" role="img" aria-labelledby="title desc">
+<title id="title">MoLik Labs · Activity report</title><desc id="desc">5 of 5 repositories pushed in the last 30 UTC days. Primary languages: JavaScript: 2, C: 1, Lua: 1, PowerShell: 1.</desc>
+<rect width="840" height="226" rx="16" fill="#1e1e2e"/>
+<g font-family="system-ui,sans-serif" fill="#cdd6f4">
+<text x="28" y="39" font-size="17" font-weight="bold" fill="#cba6f7">01 / Activity · 30 days</text>
+<circle cx="97" cy="132" r="52" fill="none" stroke="#45475a" stroke-width="12"/>
+<circle cx="97" cy="132" r="52" fill="none" stroke="#94e2d5" stroke-width="12" pathLength="100" stroke-dasharray="100 0" transform="rotate(-90 97 132)"/>
+<text x="97" y="140" text-anchor="middle" font-size="25" font-weight="bold">100%</text>
+<text x="174" y="126" font-size="28">5 / 5</text><text x="174" y="154" font-size="16">repos with a push</text>
+<path d="M388 26v174" stroke="#45475a"/><text x="416" y="39" font-size="17" font-weight="bold" fill="#cba6f7">02 / Primary languages · repositories</text>
+<text x="416" y="77">JavaScript</text><rect x="599" y="67" width="165" height="8" rx="4" fill="#45475a"/><rect x="599" y="67" width="66.00" height="8" rx="4" fill="#89b4fa"/><text x="798" y="77" text-anchor="end">2</text>
+<text x="416" y="115">C</text><rect x="599" y="105" width="165" height="8" rx="4" fill="#45475a"/><rect x="599" y="105" width="33.00" height="8" rx="4" fill="#f5c2e7"/><text x="798" y="115" text-anchor="end">1</text>
+<text x="416" y="153">Lua</text><rect x="599" y="143" width="165" height="8" rx="4" fill="#45475a"/><rect x="599" y="143" width="33.00" height="8" rx="4" fill="#fab387"/><text x="798" y="153" text-anchor="end">1</text>
+<text x="416" y="191">PowerShell</text><rect x="599" y="181" width="165" height="8" rx="4" fill="#45475a"/><rect x="599" y="181" width="33.00" height="8" rx="4" fill="#b4befe"/><text x="798" y="191" text-anchor="end">1</text>
+</g></svg>
