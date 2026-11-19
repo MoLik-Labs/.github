@@ -1,0 +1,26 @@
+name: Refresh organization profile
+on:
+  schedule:
+    - cron: '37 3 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: profile-refresh
+jobs:
+  refresh:
+    if: github.ref_name == github.event.repository.default_branch
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scripts/update.py
+        env:
+          GH_TOKEN: ${{ github.token }}
+      - name: Publish changed index
+        run: |
+          if ! git diff --quiet -- profile/README.md; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git add profile/README.md
+            git commit -m 'Refresh organization repository index'
+            git push
+          fi
