@@ -22,7 +22,11 @@ if old.count(start) != 1 or old.count(end) != 1 or old.index(start) >= old.index
     raise ValueError('Invalid repository index markers')
 svg, summary = render(repos, datetime.now(timezone.utc).date())
 (path.parent / 'assets/pulse.svg').write_text(svg)
+stars = sum(r['stargazers_count'] for r in repos)
+forks = sum(r['forks_count'] for r in repos)
 rows = [f'![{summary}; primary language counts](assets/pulse.svg)', '',
         f'**{summary}.** Each repository counts once, by its primary language.', '',
+        '| Tracked projects | Stars received | Forks received |',
+        '| :--- | :--- | :--- |', f'| {len(repos)} | {stars} | {forks} |', '',
         '### Recently updated', '', 'Latest five by push date (UTC).', '', *rows]
 path.write_text(old.split(start)[0] + '\n'.join([start, *rows, end]) + old.split(end)[1])

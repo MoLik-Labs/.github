@@ -13,6 +13,15 @@ MoLik Labs là nơi **NggKhaiz - Raven** và anh em trong lab cùng làm phần 
 
 </details>
 
+## Project atlas
+
+| Track | Where to start | What to look for |
+| :--- | :--- | :--- |
+| **Systems** | [ZMRIG](https://github.com/MoLik-Labs/ZMRIG) | RandomX miner, pool and proxy. Start with its README to distinguish the three components. |
+| **Windows** | [TINY11-AUTOMATION](https://github.com/MoLik-Labs/TINY11-AUTOMATION) · [MOLIK_WINLIK](https://github.com/MoLik-Labs/MOLIK_WINLIK) | Two entry points: build a streamlined Windows image with Actions, or tune an existing installation with PowerShell. WINLIK builds on [Sophia Script](https://github.com/farag2/Sophia-Script-for-Windows). |
+| **Algorithms** | [Q-FOX](https://github.com/MoLik-Labs/Q-FOX-Algorithm) | Follow a 3×3 cube method from the [engine](https://github.com/MoLik-Labs/Q-FOX-Algorithm/tree/main/engine) to the [results](https://github.com/MoLik-Labs/Q-FOX-Algorithm/tree/main/results). |
+| **Web tools** | [Study Focus Fox](https://github.com/MoLik-Labs/STUDY-SITE) | A study app in a single HTML file. The interface and the logic can be read together without navigating a framework. |
+
 ## Lab pulse
 
 A daily snapshot of public projects, excluding forks, archives and this profile. The ring measures repository activity, not individual productivity.
@@ -22,6 +31,10 @@ A daily snapshot of public projects, excluding forks, archives and this profile.
 
 **5 of 5 repositories pushed in the last 30 UTC days.** Each repository counts once, by its primary language.
 
+| Tracked projects | Stars received | Forks received |
+| :--- | :--- | :--- |
+| 5 | 15 | 1 |
+
 ### Recently updated
 
 Latest five by push date (UTC).
@@ -29,17 +42,29 @@ Latest five by push date (UTC).
 | Repository | Language | Last push |
 | :--- | :--- | :--- |
 | [STUDY-SITE](https://github.com/MoLik-Labs/STUDY-SITE) | JavaScript | 2026-11-19 |
+| [Q-FOX-Algorithm](https://github.com/MoLik-Labs/Q-FOX-Algorithm) | JavaScript | 2026-11-19 |
 | [MOLIK_WINLIK](https://github.com/MoLik-Labs/MOLIK_WINLIK) | PowerShell | 2026-11-19 |
 | [AAOBF](https://github.com/MoLik-Labs/AAOBF) | Lua | 2026-11-18 |
-| [Q-FOX-Algorithm](https://github.com/MoLik-Labs/Q-FOX-Algorithm) | JavaScript | 2026-11-18 |
 | [ZMRIG](https://github.com/MoLik-Labs/ZMRIG) | C | 2026-11-15 |
 <!-- index:end -->
 
-## Inside the lab
+## People & workbench
 
-| Project | What you’ll find |
-| :--- | :--- |
-| [TINY11-AUTOMATION](https://github.com/MoLik-Labs/TINY11-AUTOMATION) | A GitHub Actions workflow for building streamlined Windows 11 images. Start here if you’re interested in how Tiny11 images are assembled. |
-| [MOLIK_WINLIK](https://github.com/MoLik-Labs/MOLIK_WINLIK) | A PowerShell project for tuning an existing Windows installation, based on [Sophia Script](https://github.com/farag2/Sophia-Script-for-Windows). |
-| [Q-FOX](https://github.com/MoLik-Labs/Q-FOX-Algorithm) | A laboratory for a 3×3 Rubik’s Cube method, with its core written in C. |
-| [Study Focus Fox](https://github.com/MoLik-Labs/STUDY-SITE) | A single-file study app. Open the HTML source to see the interface and its JavaScript together. |
+**Nguyễn Gia Khải · NggKhaiz / Raven** leads the lab. The organization is our shared workspace; [Raven’s profile](https://github.com/NggKhaiz) is his personal engineering notebook. His setup pairs C, C++ and Zig for systems work with Python for tooling and hand-written HTML, CSS and JavaScript for interfaces.
+
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/NggKhaiz/NggKhaiz/main/assets/highlights-light.svg">
+  <img width="100%" alt="Highlights from Raven’s GitHub profile; these use the personal profile’s reporting scope, not the lab activity window above." src="https://raw.githubusercontent.com/NggKhaiz/NggKhaiz/main/assets/highlights-dark.svg">
+</picture>
+
+<details>
+<summary>Under the hood · how the two profiles are built</summary>
+
+| | Data | Presentation |
+| :--- | :--- | :--- |
+| **MoLik Labs** | The [daily workflow](https://github.com/MoLik-Labs/.github/actions/workflows/profile.yml) reads the organization’s public repository metadata. | [Python scripts](https://github.com/MoLik-Labs/.github/tree/main/scripts) draw the activity ring and language bars as SVG, then refresh only the marked section of this page. |
+| **NggKhaiz** | [`fetch_stats.py`](https://github.com/NggKhaiz/NggKhaiz/blob/main/tools/fetch_stats.py) collects the [profile snapshot](https://github.com/NggKhaiz/NggKhaiz/blob/main/data/profile.json). | The [build tools](https://github.com/NggKhaiz/NggKhaiz/tree/main/tools) turn that snapshot into profile artwork, a README and web pages. The highlights above are served directly from that project. |
+
+</details>
+
+**Find the right person.** For a project question, start in that repository so the people working on it have the context. For a direct note to Raven: [email](mailto:nggkhaiz@proton.me) · [personal site](https://nggkhaiz.js.org). Explore the lab’s [public people directory](https://github.com/orgs/MoLik-Labs/people); it only lists members who choose public visibility.
