@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 490" role="img" aria-labelledby="title"><title id="title">MoLik Labs · Release and portfolio observatory</title>
+<g transform="translate(0 0)" font-family="system-ui,sans-serif" fill="#cdd6f4"><rect width="416" height="241" rx="16" fill="#1e1e2e"/><text x="20" y="35" font-size="20" font-weight="bold" fill="#94e2d5">03 / Release cadence</text><text x="20" y="62" font-size="14" fill="#bac2de">Eight 7-day periods ending 2026-11-19 UTC</text>
+<rect x="22" y="183.0" width="28" height="0.0" rx="3" fill="#94e2d5"/><text x="36" y="175.0" text-anchor="middle">0</text>
+<rect x="69" y="183.0" width="28" height="0.0" rx="3" fill="#94e2d5"/><text x="83" y="175.0" text-anchor="middle">0</text>
+<rect x="116" y="183.0" width="28" height="0.0" rx="3" fill="#94e2d5"/><text x="130" y="175.0" text-anchor="middle">0</text>
+<rect x="163" y="183.0" width="28" height="0.0" rx="3" fill="#94e2d5"/><text x="177" y="175.0" text-anchor="middle">0</text>
+<rect x="210" y="183.0" width="28" height="0.0" rx="3" fill="#94e2d5"/><text x="224" y="175.0" text-anchor="middle">0</text>
+<rect x="257" y="93.0" width="28" height="90.0" rx="3" fill="#94e2d5"/><text x="271" y="85.0" text-anchor="middle">1</text>
+<rect x="304" y="183.0" width="28" height="0.0" rx="3" fill="#94e2d5"/><text x="318" y="175.0" text-anchor="middle">0</text>
+<rect x="351" y="183.0" width="28" height="0.0" rx="3" fill="#94e2d5"/><text x="365" y="175.0" text-anchor="middle">0</text>
+<path d="M20 184h375" stroke="#585b70"/><text x="20" y="213" font-size="14">25 Sep</text><text x="393" y="213" text-anchor="end" font-size="14">19 Nov</text>
+</g>
+<g transform="translate(424 0)" font-family="system-ui,sans-serif" fill="#cdd6f4"><rect width="416" height="241" rx="16" fill="#1e1e2e"/><text x="20" y="35" font-size="20" font-weight="bold" fill="#fab387">04 / Release archive</text><text x="20" y="62" font-size="14" fill="#bac2de">Published releases per project · highest five</text>
+<text x="20" y="98" font-size="14">ZMRIG</text><rect x="194" y="89" width="159" height="7" rx="3" fill="#45475a"/><rect x="194" y="89" width="159.0" height="7" rx="3" fill="#fab387"/><text x="391" y="98" text-anchor="end">1</text>
+<text x="20" y="127" font-size="14">AAOBF</text><rect x="194" y="118" width="159" height="7" rx="3" fill="#45475a"/><rect x="194" y="118" width="0.0" height="7" rx="3" fill="#fab387"/><text x="391" y="127" text-anchor="end">0</text>
+<text x="20" y="156" font-size="14">MOLIK_WINLIK</text><rect x="194" y="147" width="159" height="7" rx="3" fill="#45475a"/><rect x="194" y="147" width="0.0" height="7" rx="3" fill="#fab387"/><text x="391" y="156" text-anchor="end">0</text>
+<text x="20" y="185" font-size="14">Q-FOX-Algorithm</text><rect x="194" y="176" width="159" height="7" rx="3" fill="#45475a"/><rect x="194" y="176" width="0.0" height="7" rx="3" fill="#fab387"/><text x="391" y="185" text-anchor="end">0</text>
+<text x="20" y="214" font-size="14">STUDY-SITE</text><rect x="194" y="205" width="159" height="7" rx="3" fill="#45475a"/><rect x="194" y="205" width="0.0" height="7" rx="3" fill="#fab387"/><text x="391" y="214" text-anchor="end">0</text>
+</g>
+<g transform="translate(0 249)" font-family="system-ui,sans-serif" fill="#cdd6f4"><rect width="416" height="241" rx="16" fill="#1e1e2e"/><text x="20" y="35" font-size="20" font-weight="bold" fill="#b4befe">05 / License signals</text><text x="20" y="62" font-size="14" fill="#bac2de">Repository count by GitHub license detection</text>
+<text x="20" y="98" font-size="14">MIT</text><rect x="194" y="89" width="159" height="7" rx="3" fill="#45475a"/><rect x="194" y="89" width="159.0" height="7" rx="3" fill="#b4befe"/><text x="391" y="98" text-anchor="end">2</text>
+<text x="20" y="127" font-size="14">Not detected</text><rect x="194" y="118" width="159" height="7" rx="3" fill="#45475a"/><rect x="194" y="118" width="159.0" height="7" rx="3" fill="#b4befe"/><text x="391" y="127" text-anchor="end">2</text>
+<text x="20" y="156" font-size="14">GPL-3.0</text><rect x="194" y="147" width="159" height="7" rx="3" fill="#45475a"/><rect x="194" y="147" width="79.5" height="7" rx="3" fill="#b4befe"/><text x="391" y="156" text-anchor="end">1</text>
+</g>
+<g transform="translate(424 249)" font-family="system-ui,sans-serif" fill="#cdd6f4"><rect width="416" height="241" rx="16" fill="#1e1e2e"/><text x="20" y="35" font-size="20" font-weight="bold" fill="#f5c2e7">06 / Project origins</text><text x="20" y="62" font-size="14" fill="#bac2de">Tracked repositories by year created</text>
+<text x="20" y="98" font-size="14">2026</text><rect x="194" y="89" width="159" height="7" rx="3" fill="#45475a"/><rect x="194" y="89" width="159.0" height="7" rx="3" fill="#f5c2e7"/><text x="391" y="98" text-anchor="end">5</text>
+</g>
+</svg>
