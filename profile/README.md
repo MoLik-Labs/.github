@@ -52,9 +52,9 @@ Latest five by push date (UTC).
 
 | Repository | Project language | Last push |
 | :--- | :--- | :--- |
-| [Q-FOX-Algorithm](https://github.com/MoLik-Labs/Q-FOX-Algorithm) | JavaScript | 2026-11-20 |
-| [ZMRIG](https://github.com/MoLik-Labs/ZMRIG) | Zig | 2026-11-20 |
+| [Q-FOX-Algorithm](https://github.com/MoLik-Labs/Q-FOX-Algorithm) | JavaScript | 2026-11-21 |
 | [OpenBullet2](https://github.com/MoLik-Labs/OpenBullet2) | — | 2026-11-20 |
+| [ZMRIG](https://github.com/MoLik-Labs/ZMRIG) | Zig | 2026-11-20 |
 | [STUDY-SITE](https://github.com/MoLik-Labs/STUDY-SITE) | JavaScript | 2026-11-20 |
 | [MOLIK_WINLIK](https://github.com/MoLik-Labs/MOLIK_WINLIK) | PowerShell | 2026-11-19 |
 <!-- index:end -->

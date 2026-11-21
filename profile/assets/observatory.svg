@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 490" role="img" aria-labelledby="title"><title id="title">MoLik Labs · Release and portfolio observatory</title>
-<g transform="translate(0 0)" font-family="system-ui,sans-serif" fill="#cdd6f4"><rect width="416" height="241" rx="16" fill="#1e1e2e"/><text x="20" y="35" font-size="20" font-weight="bold" fill="#94e2d5">03 / Release cadence</text><text x="20" y="62" font-size="14" fill="#bac2de">Eight 7-day periods ending 2026-11-20 UTC</text>
+<g transform="translate(0 0)" font-family="system-ui,sans-serif" fill="#cdd6f4"><rect width="416" height="241" rx="16" fill="#1e1e2e"/><text x="20" y="35" font-size="20" font-weight="bold" fill="#94e2d5">03 / Release cadence</text><text x="20" y="62" font-size="14" fill="#bac2de">Eight 7-day periods ending 2026-11-21 UTC</text>
 <rect x="22" y="183.0" width="28" height="0.0" rx="3" fill="#94e2d5"/><text x="36" y="175.0" text-anchor="middle">0</text>
 <rect x="69" y="183.0" width="28" height="0.0" rx="3" fill="#94e2d5"/><text x="83" y="175.0" text-anchor="middle">0</text>
 <rect x="116" y="183.0" width="28" height="0.0" rx="3" fill="#94e2d5"/><text x="130" y="175.0" text-anchor="middle">0</text>
@@ -8,7 +8,7 @@
 <rect x="257" y="93.0" width="28" height="90.0" rx="3" fill="#94e2d5"/><text x="271" y="85.0" text-anchor="middle">1</text>
 <rect x="304" y="183.0" width="28" height="0.0" rx="3" fill="#94e2d5"/><text x="318" y="175.0" text-anchor="middle">0</text>
 <rect x="351" y="183.0" width="28" height="0.0" rx="3" fill="#94e2d5"/><text x="365" y="175.0" text-anchor="middle">0</text>
-<path d="M20 184h375" stroke="#585b70"/><text x="20" y="213" font-size="14">26 Sep</text><text x="393" y="213" text-anchor="end" font-size="14">20 Nov</text>
+<path d="M20 184h375" stroke="#585b70"/><text x="20" y="213" font-size="14">27 Sep</text><text x="393" y="213" text-anchor="end" font-size="14">21 Nov</text>
 </g>
 <g transform="translate(424 0)" font-family="system-ui,sans-serif" fill="#cdd6f4"><rect width="416" height="241" rx="16" fill="#1e1e2e"/><text x="20" y="35" font-size="20" font-weight="bold" fill="#fab387">04 / Release archive</text><text x="20" y="62" font-size="14" fill="#bac2de">Published releases per project · highest five</text>
 <text x="20" y="98" font-size="14">ZMRIG</text><rect x="194" y="89" width="159" height="7" rx="3" fill="#45475a"/><rect x="194" y="89" width="159.0" height="7" rx="3" fill="#fab387"/><text x="391" y="98" text-anchor="end">1</text>
