@@ -29,18 +29,18 @@ A daily snapshot of public projects, excluding forks, archives and this profile.
 <!-- index:start -->
 > **Field notes · 2026.11** — [ZMRIG](https://github.com/MoLik-Labs/ZMRIG/blob/BETA/zmrig/src/main.zig) · Start at the Zig entry point for the RandomX miner.
 
-![6 of 6 repositories pushed in the last 30 UTC days; project language counts](assets/pulse.svg)
+![8 of 8 repositories pushed in the last 30 UTC days; project language counts](assets/pulse.svg)
 
-**6 of 6 repositories pushed in the last 30 UTC days.** Each repository counts once. We use GitHub’s primary language except for ZMRIG, classified by its Zig miner core.
+**8 of 8 repositories pushed in the last 30 UTC days.** Each repository counts once. We use GitHub’s primary language except for ZMRIG, classified by its Zig miner core.
 
 ![Release cadence, release archive, detected licenses and repository creation years](assets/observatory.svg)
 
 <details><summary>Chart data &amp; reading notes</summary>
 
 - **Release cadence**, oldest week first: 0 · 0 · 0 · 0 · 0 · 1 · 0 · 0
-- **Release archive:** ZMRIG: 1, AAOBF: 0, MOLIK_WINLIK: 0, OpenBullet2: 0, Q-FOX-Algorithm: 0
-- **License signals:** MIT: 3, Not detected: 2, GPL-3.0: 1
-- **Project origins:** 2026: 6
+- **Release archive:** ZMRIG: 1, AAOBF: 0, Kova-INC: 0, MOLIK_WINLIK: 0, OpenBullet2: 0
+- **License signals:** MIT: 3, Not detected: 3, AGPL-3.0: 1, GPL-3.0: 1
+- **Project origins:** 2026: 8
 
 Release charts include published prereleases, not draft releases or bare tags. Creation year is the repository date, not the first upstream commit.
 
@@ -52,11 +52,11 @@ Latest five by push date (UTC).
 
 | Repository | Project language | Last push |
 | :--- | :--- | :--- |
+| [Kova-INC](https://github.com/MoLik-Labs/Kova-INC) | JavaScript | 2026-11-22 |
 | [Q-FOX-Algorithm](https://github.com/MoLik-Labs/Q-FOX-Algorithm) | JavaScript | 2026-11-21 |
 | [OpenBullet2](https://github.com/MoLik-Labs/OpenBullet2) | — | 2026-11-20 |
+| [SHOPCLONE7_PAYOS](https://github.com/MoLik-Labs/SHOPCLONE7_PAYOS) | JavaScript | 2026-11-20 |
 | [ZMRIG](https://github.com/MoLik-Labs/ZMRIG) | Zig | 2026-11-20 |
-| [STUDY-SITE](https://github.com/MoLik-Labs/STUDY-SITE) | JavaScript | 2026-11-20 |
-| [MOLIK_WINLIK](https://github.com/MoLik-Labs/MOLIK_WINLIK) | PowerShell | 2026-11-19 |
 <!-- index:end -->
 
 ## Field manual
