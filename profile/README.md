@@ -37,7 +37,7 @@ A daily snapshot of public projects, excluding forks, archives and this profile.
 
 <details><summary>Chart data &amp; reading notes</summary>
 
-- **Release cadence**, oldest week first: 0 · 0 · 0 · 0 · 0 · 1 · 0 · 0
+- **Release cadence**, oldest week first: 0 · 0 · 0 · 0 · 1 · 0 · 0 · 0
 - **Release archive:** ZMRIG: 1, AAOBF: 0, Kova-INC: 0, MOLIK_WINLIK: 0, OpenBullet2: 0
 - **License signals:** MIT: 3, Not detected: 3, AGPL-3.0: 1, GPL-3.0: 1
 - **Project origins:** 2026: 8
@@ -52,7 +52,7 @@ Latest five by push date (UTC).
 
 | Repository | Project language | Last push |
 | :--- | :--- | :--- |
-| [Kova-INC](https://github.com/MoLik-Labs/Kova-INC) | JavaScript | 2026-11-22 |
+| [Kova-INC](https://github.com/MoLik-Labs/Kova-INC) | JavaScript | 2026-11-24 |
 | [Q-FOX-Algorithm](https://github.com/MoLik-Labs/Q-FOX-Algorithm) | JavaScript | 2026-11-21 |
 | [OpenBullet2](https://github.com/MoLik-Labs/OpenBullet2) | — | 2026-11-20 |
 | [SHOPCLONE7_PAYOS](https://github.com/MoLik-Labs/SHOPCLONE7_PAYOS) | JavaScript | 2026-11-20 |
