@@ -52,11 +52,11 @@ Latest five by push date (UTC).
 
 | Repository | Project language | Last push |
 | :--- | :--- | :--- |
-| [Q-FOX-Algorithm](https://github.com/MoLik-Labs/Q-FOX-Algorithm) | JavaScript | 2026-11-24 |
-| [STUDY-SITE](https://github.com/MoLik-Labs/STUDY-SITE) | JavaScript | 2026-11-24 |
-| [SHOPCLONE7_PAYOS](https://github.com/MoLik-Labs/SHOPCLONE7_PAYOS) | JavaScript | 2026-11-24 |
-| [Kova-INC](https://github.com/MoLik-Labs/Kova-INC) | JavaScript | 2026-11-24 |
-| [OpenBullet2](https://github.com/MoLik-Labs/OpenBullet2) | — | 2026-11-20 |
+| [SHOPCLONE7_PAYOS](https://github.com/MoLik-Labs/SHOPCLONE7_PAYOS) | JavaScript | 2026-11-26 |
+| [STUDY-SITE](https://github.com/MoLik-Labs/STUDY-SITE) | JavaScript | 2026-11-26 |
+| [ZMRIG](https://github.com/MoLik-Labs/ZMRIG) | Zig | 2026-11-26 |
+| [MOLIK_WINLIK](https://github.com/MoLik-Labs/MOLIK_WINLIK) | PowerShell | 2026-11-26 |
+| [Kova-INC](https://github.com/MoLik-Labs/Kova-INC) | JavaScript | 2026-11-26 |
 <!-- index:end -->
 
 ## Field manual
